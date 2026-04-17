@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: omegle-like-chat
+    env: node
+    plan: free
+    branch: main
+    rootDirectory: .
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
